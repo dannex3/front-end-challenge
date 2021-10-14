@@ -3,11 +3,10 @@ import styled from "styled-components";
 export const Container = styled.div`
   width: 100%;
   height: 100%;
-  background: #FFFAFA;
 `;
 
 export const Box = styled.div`
-  padding-top: 200px;
+  padding-top: 150px;
   padding-left: 300px;
   display: flex;
   flex-direction: column;
@@ -44,7 +43,6 @@ export const Button = styled.button`
     filter: brightness(110%);
     transition: 1s;
   }
-
   `;
 
 export const Divider = styled.div`
@@ -53,23 +51,23 @@ export const Divider = styled.div`
   padding-bottom: 20px;
 `;
 
-export const ProductsContainer = styled.div`
-`;
-
 export const BoxItem = styled.div`
  width: 800px;
  height: 100%;
- padding: 20px;
  align-itens: center;
  display: flex;
- background: #e5e5e5;
-`
+ border-radius: 10px;
+`;
 
 export const NameItem = styled.strong`
   font-family: 'Helvetica', sans-serif;
   font-weight: 300;
   font-size: 16px;
-  padding: 5px;
-  background: #FFFAFA;
-  border: 10px solid #e5e5e5;
-`
+  padding: 20px;
+  background: #D12815;
+  border: 7px solid #FFF;
+  border-radius: 15px;
+  color: #FFF;
+  text-align: center;
+  text-transform: capitalize;
+`;
